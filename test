@@ -1,0 +1,98 @@
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local label = Instance.new("TextLabel")
+local aimbot = Instance.new("TextButton")
+local rainbowgun = Instance.new("TextButton")
+local infinitejump = Instance.new("TextButton")
+local modifygun = Instance.new("TextButton")
+local rejoinserver = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+main.Position = UDim2.new(0.188738272, 0, 0.315525889, 0)
+main.Size = UDim2.new(0, 592, 0, 376)
+main.Active = true
+main.Draggable = true
+
+label.Name = "label"
+label.Parent = main
+label.BackgroundColor3 = Color3.fromRGB(118, 118, 118)
+label.Size = UDim2.new(0, 592, 0, 50)
+label.Font = Enum.Font.SciFi
+label.Text = "Arsenal                       {made by DeliviaX#1532 }                   {credits to Dex#8822 for helping}"
+label.TextColor3 = Color3.fromRGB(0, 0, 0)
+label.TextSize = 14.000
+
+aimbot.Name = "aimbot"
+aimbot.Parent = main
+aimbot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+aimbot.Position = UDim2.new(0.0304054059, 0, 0.226063833, 0)
+aimbot.Size = UDim2.new(0, 200, 0, 50)
+aimbot.Font = Enum.Font.SourceSans
+aimbot.Text = "aimbot"
+aimbot.TextColor3 = Color3.fromRGB(0, 0, 0)
+aimbot.TextSize = 14.000
+aimbot.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/DeliviaX/main/main/main", true))()
+end)
+
+rainbowgun.Name = "rainbow gun"
+rainbowgun.Parent = main
+rainbowgun.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+rainbowgun.Position = UDim2.new(0.0304054059, 0, 0.53191489, 0)
+rainbowgun.Size = UDim2.new(0, 200, 0, 50)
+rainbowgun.Font = Enum.Font.SourceSans
+rainbowgun.Text = "rainbow gun"
+rainbowgun.TextColor3 = Color3.fromRGB(0, 0, 0)
+rainbowgun.TextSize = 14.000
+rainbowgun.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/DeliviaX/rainbow-gun/main/rainbow-gun%20-arsenal", true))()
+end)
+
+infinitejump.Name = "infinite jump"
+infinitejump.Parent = main
+infinitejump.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+infinitejump.Position = UDim2.new(0.594594598, 0, 0.226063833, 0)
+infinitejump.Size = UDim2.new(0, 200, 0, 50)
+infinitejump.Font = Enum.Font.SourceSans
+infinitejump.Text = "infinite jump"
+infinitejump.TextColor3 = Color3.fromRGB(0, 0, 0)
+infinitejump.TextSize = 14.000
+infinitejump.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/DeliviaX/infinite-jump/main/infinite-jump", true))()
+end)
+
+
+
+modifygun.Name = "modify gun"
+modifygun.Parent = main
+modifygun.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+modifygun.Position = UDim2.new(0.594594598, 0, 0.555851042, 0)
+modifygun.Size = UDim2.new(0, 200, 0, 50)
+modifygun.Font = Enum.Font.SourceSans
+modifygun.Text = "modify gun"
+modifygun.TextColor3 = Color3.fromRGB(0, 0, 0)
+modifygun.TextSize = 14.000
+modifygun.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/DeliviaX/modify-gun/main/modify-gun", true))()
+end)
+
+rejoinserver.Name = "rejoin server"
+rejoinserver.Parent = main
+rejoinserver.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+rejoinserver.Position = UDim2.new(0.309121609, 0, 0.771276593, 0)
+rejoinserver.Size = UDim2.new(0, 200, 0, 50)
+rejoinserver.Font = Enum.Font.SourceSans
+rejoinserver.Text = "rejoin server"
+rejoinserver.TextColor3 = Color3.fromRGB(0, 0, 0)
+rejoinserver.TextSize = 14.000
+rejoinserver.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/DeliviaX/rejoin-server/main/rejoin-server", true))()
+end)
